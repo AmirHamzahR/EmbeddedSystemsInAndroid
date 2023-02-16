@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GyroscopeSensor">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="454dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043">
+
+        <EditText
+            android:id="@+id/gyroText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:text="Gyroscope Sensor" />
+
+        <TextView
+            android:id="@+id/gyr_Xaxis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gyr_Xaxis" />
+
+        <TextView
+            android:id="@+id/gyr_Yaxis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gyr_Yaxis" />
+
+        <TextView
+            android:id="@+id/gyr_Zaxis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gyr_Zaxis" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

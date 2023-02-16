@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DiffSensorsApp</string>
+    <string name="acc_Xaxis">acc_Xaxis</string>
+    <string name="acc_Yaxis">acc_Yaxis</string>
+    <string name="acc_Zaxis">acc_Zaxis</string>
+    <string name="gyr_Xaxis">gyr_Xaxis</string>
+    <string name="gyr_Yaxis">gyr_Yaxis</string>
+    <string name="gyr_Zaxis">gyr_Zaxis</string>
+    <string name="ChooseText">Choose your sensor:</string>
+</resources>
