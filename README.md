@@ -6,7 +6,7 @@
 
 ## Application Interface and functionality
 A project that is done under Embedded Systems 5 (EWireless5) in the University of Edinburgh which will go through most of the frameworks, methods, and implementations of Android Operating Systems. The Android Studio software and Java programming language is mostly used in this project. The softare testing from the different classes, methods, listeners, and sensors will be done using the Object Oriented Programming (OOP) style in API 28 environment on a Google Pixel 2 emulator. The hardware testings are done in my own android phones, Samsung Galaxy A7 2018 and Samsung S20+, and the provided university phone, Google Pixel 2. 
-The directional step counter (DSC) application is built in Android Studio using Java to integrate various application interfaces (API) for the Android OS. It aims to create a compass, a directional step counter, and a magnetometer quality detector using the following APIs:
+The [directional step counter (DSC)](android_projects/direction_step_counter) application is built in Android Studio using Java to integrate various application interfaces (API) for the Android OS. It aims to create a compass, a directional step counter, and a magnetometer quality detector using the following APIs:
 
 - Android Sensors API 
 - Android Permissions API 
